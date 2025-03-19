@@ -3,6 +3,10 @@ body {
     font-weight:200;
  }
 
+ h1 {
+    font-size: larger;
+ }
+
 .main-container {
     background-color: rgb(130, 130, 241);
     margin: auto;

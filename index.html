@@ -12,7 +12,7 @@
     />
 
     <link rel="stylesheet" href="/css/style.css">
-    <script type="module" src="app.js"></script>
+    
 </head>
 <body>
     <div class="main-container">
@@ -24,30 +24,65 @@
         </div>
         <div class="api-section">
             <div class="api-list">
+
+                <section Class="api">
+                    <h1>X</h1><br>
+                    <input type="text" id="pokemonName" placeholder="Enter Pokemon Name">
+                    <button onclick="fetchData()"> Fetch Pokemon </button>
+                    <!--<img src="" alt="Pokemon Sprite" id="pokemonSprite" style="display:none">-->
                 </section>
+
                 <section Class="api">
                     <h1>X</h1>
+                <form id="userForm">
+                <fieldset>
+                    <legend> Select the Count</legend>
+                    <input type="radio" id ="Five" value="5" name="itemsNumber">
+                    <label for="Five"> 5 </label>
+                    <input type="radio" id ="Ten" value="10" name="itemsNumber">
+                    <label for="Ten"> 10 </label>
+                    <input type="radio" id ="Fifteen" value="15" name="itemsNumber">
+                    <label for="Fifteen"> 15 </label>
+                </fieldset>
+                <button type="submit"> Submit </button>
+                </form>
+                <div id="pokemonList">List of Pokemon's Ability</div>
+
+                
                 </section>
-                <section Class="api">
-                    <h1>X</h1>
-                </section>
+                
                 <section Class="api">
                     <h1>X</h1>
                 </section>
             </div>
             <div class="api-list">
+                
                 <section Class="api">
                     <h1>X</h1>
                 </section>
+                
                 <section Class="api">
                     <h1>X</h1>
                 </section>
+                
                 <section Class="api">
                     <h1>X</h1>
                 </section>
             </div>
         </div>
+        <div class="form-input">
+            <form id="form">
+                <input type="firstName" name="text" value="foo" />
+                <input type="text" name="text2" value="bar" />
+                <input type="text" name="text2" value="baz" />
+                <input type="checkbox" name="check" checked disabled />
+                <button name="intent" value="save">Save</button>
+                <button name="intent" value="saveAsCopy">Save As Copy</button>
+              </form>
+              
+              <output id="output"></output>
+        </div>
 </div>
-
+<script src="app.js"></script>
 </body>
 </html>
